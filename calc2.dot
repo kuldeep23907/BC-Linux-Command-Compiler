@@ -1,0 +1,23 @@
+digraph G { ordering=out 
+n0 [ label = "6"];
+n1 [ label = "2"];
+n2 [ label = "/"];
+n2->n0;
+n2->n1;
+n3 [ label = "4"];
+n4 [ label = "2"];
+n5 [ label = "6"];
+n6 [ label = "*"];
+n6->n4;
+n6->n5;
+n7 [ label = "2"];
+n8 [ label = "-"];
+n8->n6;
+n8->n7;
+n9 [ label = "+"];
+n9->n3;
+n9->n8;
+n10 [ label = "+"];
+n10->n2;
+n10->n9;
+}
